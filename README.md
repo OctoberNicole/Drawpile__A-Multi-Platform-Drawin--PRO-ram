@@ -51,11 +51,12 @@ _____________________________________
 * libzip (macOS, Linux Flatpak)
 
 
-•On Windows, these libraries are signed along with the executable package using *free code signing*, thankfully provided by [SignPath.io](https://about.signpath.io/) and a  certificate by [SignPath Foundation](https://signpath.org/). >See the code [signing policy on drawpile.net](https://drawpile.net/codesigningpolicy/) for even more details!
+•On Windows, these libraries are signed along with the executable package using *free code signing*, thankfully provided by [SignPath.io](https://about.signpath.io/) and a  certificate by [SignPath Foundation](https://signpath.org/). 
+[See the code [signing policy on drawpile.net](https://drawpile.net/codesigningpolicy/) for even more details!]
 
 •The dependencies are pinned to known good versions and the source code for is verified against the hashes and signatures provided in their releases from upstream. SHA384 hash checks are also done for each build to ensure integrity of the source code also retrieved from upstream.
 
 •We make some patches to these dependencies when building the application, which you can find in [.github/scripts/patches](.github/scripts/patches). Each patch file contains a description as to what it does.
 
 •You can find build processes, versions, upstream source URL's and hashes for [Qt and OpenSSL here](.github/scripts/build-qt.cmake). Also, for [KDE Framework Archive and libzip here](.github/scripts/build-other.cmake).
-_____________________________________
+#### _____________________________________
