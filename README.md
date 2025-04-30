@@ -1,10 +1,13 @@
 
-# _Drawpile_ - _A Collaborative Drawing Program_
+_____________________________________
 
-•[![CI status badge](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml) [![translation status](https://hosted.weblate.org/widgets/drawpile/-/svg-badge.svg)](https://hosted.weblate.org/engage/drawpile/)
+## Drawpile - A Collaborative Drawing Program
+
+[![CI status badge](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml) [![translation status](https://hosted.weblate.org/widgets/drawpile/-/svg-badge.svg)](https://hosted.weblate.org/engage/drawpile/)
 
 •Drawpile is a drawing program that lets you draw, paint and animate together with others on the same canvas. It runs on Windows, Linux, macOS and Android.
 
+_____________________________________
 
 # _Installing_
 
@@ -14,6 +17,7 @@
 
 •If you're using Arch Linux, you can get Drawpile [from the AUR](https://aur.archlinux.org/packages/drawpile).
 
+_____________________________________
 
 # _Getting Help, Giving Suggestions, Reporting Bugs_
 
@@ -21,6 +25,7 @@
 
 •You can directly [report issues here on GitHub](https://github.com/drawpile/Drawpile/issues). If you got Discord, you can [join the Drawpile server](https://drawpile.net/discord/) on there. You can also [use the chatroom on libera.chat](https://drawpile.net/irc/), it can be done directly through the browser and doesn't need any account.
 
+_____________________________________
 
 ```
 # _Contributing_
@@ -32,6 +37,7 @@
 •[![translation status](https://hosted.weblate.org/widgets/drawpile/-/287x66-grey.png)](https://hosted.weblate.org/engage/drawpile/)
 ```
 
+_____________________________________
 
 # _Client Dependencies_
 
@@ -50,3 +56,5 @@
 •We make some patches to these dependencies when building the application, which you can find in [.github/scripts/patches](.github/scripts/patches). Each patch file contains a description as to what it does.
 
 •You can find build processes, versions, the upstream source URLs and hashes [for Qt and OpenSSL here](.github/scripts/build-qt.cmake) and [for KDE Framework Archive and libzip here](.github/scripts/build-other.cmake).
+
+_____________________________________
