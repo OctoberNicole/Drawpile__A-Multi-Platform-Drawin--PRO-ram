@@ -3,7 +3,8 @@ _____________________________________
 
 # Drawpile - A Collaborative Drawing Program
 
-[![CI status badge](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml) [![translation status](https://hosted.weblate.org/widgets/drawpile/-/svg-badge.svg)](https://hosted.weblate.org/engage/drawpile/)
+[![CI status badge](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml)[![translation status](https://hosted.weblate.org/widgets/drawpile/-/svg-badge.svg)](https://hosted.weblate.org/engage/drawpile/)
+
 
 >Drawpile is a drawing program that lets you draw, paint and animate together with others on the same canvas. It runs on Windows, Linux, macOS and Android.
 
@@ -34,11 +35,15 @@ _____________________________________
 •If you'd like to help Contribute towards the Documentation, you can do so [over in this repository](https://github.com/drawpile/drawpile.github.io).
 
 •If you'd like to help translate Drawpile to any language, take a look at [Drawpile on Weblate](https://hosted.weblate.org/engage/drawpile/), where you can translate languages directly in any browser.
+
 _____________________________________
+
 [![translation status](https://hosted.weblate.org/widgets/drawpile/-/287x66-grey.png)](https://hosted.weblate.org/engage/drawpile/)
+
 _____________________________________
 
 ## _Client Dependencies, Libraries, Patches & Signatures..._
+
 
 >The Drawpile client uses the following shared libraries:
 
@@ -59,4 +64,5 @@ _____________________________________
 •We make some patches to these dependencies when building the application, which you can find in [.github/scripts/patches](.github/scripts/patches). Each patch file contains a description as to what it does.
 
 •You can find build processes, versions, upstream source URL's and hashes for [Qt and OpenSSL here](.github/scripts/build-qt.cmake). Also, for [KDE Framework Archive and libzip here](.github/scripts/build-other.cmake).
-#### _____________________________________
+
+____________________________________
